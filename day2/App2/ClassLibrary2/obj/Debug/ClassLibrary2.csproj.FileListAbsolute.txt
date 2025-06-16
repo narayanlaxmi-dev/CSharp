@@ -1,0 +1,6 @@
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

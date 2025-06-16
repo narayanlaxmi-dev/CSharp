@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\onetomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\onetomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\manytomany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\what.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:what.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\clearsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\clearsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\setsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\setsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\getsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\getsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\cookie\\getcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\cookie\\getcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManyToMany.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\ManyToMany.cs",
+              "RelativeDocumentMoniker": "Models\\ManyToMany.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\ManyToMany.cs",
+              "RelativeToolTip": "Models\\ManyToMany.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:48:24.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OneToMany.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToMany.cs",
+              "RelativeDocumentMoniker": "Models\\OneToMany.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToMany.cs",
+              "RelativeToolTip": "Models\\OneToMany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:48:05.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClearSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\ClearSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\ClearSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\ClearSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\ClearSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:11:21.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\GetSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\GetSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\GetSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\GetSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:11:01.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SetSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\SetSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\SetSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\SetSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\SetSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:09:56.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetCookie.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\GetCookie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cookie\\GetCookie.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\GetCookie.cshtml",
+              "RelativeToolTip": "Views\\Cookie\\GetCookie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T10:18:17.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "What.txt",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\What.txt",
+              "RelativeDocumentMoniker": "What.txt",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\What.txt",
+              "RelativeToolTip": "What.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-15T04:29:58.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\UserProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\UserProfileViewModel.cs",
+              "RelativeToolTip": "Models\\UserProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:26:30.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:22:23.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OneToOne.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToOne.cs",
+              "RelativeDocumentMoniker": "Models\\OneToOne.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToOne.cs",
+              "RelativeToolTip": "Models\\OneToOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T03:47:38.061Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

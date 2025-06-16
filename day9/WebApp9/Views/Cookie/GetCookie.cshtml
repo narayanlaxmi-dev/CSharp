@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Get Cookie";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>UserName from Cookie: <strong>@ViewBag.UserName</strong></p>
+
+<p><a href="@Url.Action("SetCookie")">Set Cookie</a></p>
+<p><a href="@Url.Action("DeleteCookie")">Delete Cookie</a></p>

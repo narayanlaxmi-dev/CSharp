@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|c:\\users\\cdac\\documents\\c# narayan\\day1\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|c:\\users\\cdac\\documents\\c# narayan\\day1\\app\\app\\extensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|solutionrelative:app\\extensionmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|c:\\users\\cdac\\documents\\c# narayan\\day1\\app\\app\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|solutionrelative:app\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|c:\\users\\cdac\\documents\\c# narayan\\day1\\app\\app\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|solutionrelative:app\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|c:\\users\\cdac\\documents\\c# narayan\\day1\\app\\app\\bankaccmangsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DC3DE0-6CA1-4A54-9564-F5958CF535B4}|App\\App.csproj|solutionrelative:app\\bankaccmangsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExtensionMethod.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\ExtensionMethod.cs",
+              "RelativeDocumentMoniker": "App\\ExtensionMethod.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\ExtensionMethod.cs",
+              "RelativeToolTip": "App\\ExtensionMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:58:30.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccMangSys.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\BankAccMangSys.cs",
+              "RelativeDocumentMoniker": "App\\BankAccMangSys.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\BankAccMangSys.cs",
+              "RelativeToolTip": "App\\BankAccMangSys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:18:17.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Book.cs",
+              "RelativeDocumentMoniker": "App\\Book.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Book.cs",
+              "RelativeToolTip": "App\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:06:01.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Student.cs",
+              "RelativeDocumentMoniker": "App\\Student.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Student.cs",
+              "RelativeToolTip": "App\\Student.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T06:53:02.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day1\\App\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T04:50:38.376Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

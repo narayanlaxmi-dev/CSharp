@@ -1,0 +1,34 @@
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\appsettings.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.staticwebassets.runtime.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.staticwebassets.endpoints.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.exe
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.deps.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.runtimeconfig.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\bin\Debug\net8.0\E-commerce exercise.pdb
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.AssemblyInfoInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.AssemblyInfo.cs
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.RazorAssemblyInfo.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.RazorAssemblyInfo.cs
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\scopedcss\bundle\E-commerce exercise.styles.css
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\scopedcss\projectbundle\E-commerce exercise.bundle.scp.css
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets\msbuild.E-commerce exercise.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets\msbuild.E-commerce exercise.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets\msbuild.build.E-commerce exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-commerce exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-commerce exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\refint\E-commerce exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.pdb
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\E-commerce exercise.genruntimeconfig.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\E-commerce exercise\E-commerce exercise\obj\Debug\net8.0\ref\E-commerce exercise.dll

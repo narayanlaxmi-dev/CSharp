@@ -1,0 +1,31 @@
+﻿dll dependencies in termial also add nuGet manager 
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+dotnet build
+dotnet ef migrations add InitialCreated
+ dotnet ef database update // db created 
+
+ dotnet ef migrations list
+
+
+ to change DB// optional, removes the last migration
+ dotnet ef migrations remove     
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+
+teacher
+dotnet ef migrations add AddTeacherTable
+dotnet ef database update
+
+dotnet ef migrations add AddUserTable
+dotnet ef database update
+
+
+dotnet ef migrations add AddOneToManyTable
+dotnet ef database update
+
+delete db and delete migration and add dotnet ef migrations add InitialCreate
+	dotnet ef database update

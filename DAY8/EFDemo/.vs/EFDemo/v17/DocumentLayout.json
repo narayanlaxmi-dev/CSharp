@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|c:\\users\\cdac\\documents\\c# narayan\\day8\\efdemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|c:\\users\\cdac\\documents\\c# narayan\\day8\\efdemo\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|c:\\users\\cdac\\documents\\c# narayan\\day8\\efdemo\\models\\userprofile1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|solutionrelative:models\\userprofile1_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|c:\\users\\cdac\\documents\\c# narayan\\day8\\efdemo\\models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|solutionrelative:models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|c:\\users\\cdac\\documents\\c# narayan\\day8\\efdemo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0138B4-7B87-4FAD-A4CB-FB5EA6F845DD}|EFDemo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\TextFile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TextFile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T09:11:17.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwEsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T05:23:31.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfile1_1.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Models\\UserProfile1_1.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfile1_1.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Models\\UserProfile1_1.cs",
+              "RelativeToolTip": "Models\\UserProfile1_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:24:39.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OneToOne.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Models\\OneToOne.cs",
+              "RelativeDocumentMoniker": "Models\\OneToOne.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Models\\OneToOne.cs",
+              "RelativeToolTip": "Models\\OneToOne.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:23:22.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextFile.txt",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\TextFile.txt",
+              "RelativeDocumentMoniker": "TextFile.txt",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\TextFile.txt",
+              "RelativeToolTip": "TextFile.txt",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-14T12:16:02.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\DAY8\\EFDemo\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T12:14:59.422Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

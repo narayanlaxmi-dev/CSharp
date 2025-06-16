@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Fitness - Fitness Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header-top">
+            <div class="nav-shaps-2"></div>
+            <div class="container d-flex align-items-center">
+                <div class="d-flex align-items-center h-100">
+                    <a href="#" class="navbar-brand" style="height: 125px;">
+                        <h1 class="text-primary mb-0"><i class="fas fa-hand-rock me-2"></i> Fitness</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                </div>
+                <div class="w-100 h-100">
+                    <div class="topbar px-0 py-2 d-none d-lg-block" style="height: 45px;">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-8 text-center text-lg-center mb-lg-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="pe-4">
+                                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>example@gmail.com</a>
+                                    </div>
+                                    <div class="pe-0">
+                                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fa fa-clock text-primary me-2"></i>Mon - Sat: 8.00 am-7.00 pm</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center text-lg-end">
+                                <div class="d-flex justify-content-end">
+                                    <div class="d-flex align-items-center small">
+                                        <a href="#" class="login-btn text-body me-3 pe-3"> <span>Login</span></a>
+                                        <a href="#" class="text-body me-3"> Register</a>
+                                    </div>
+                                    <div class="d-flex pe-3">
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-bar px-0 py-lg-0" style="height: 80px;">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-lg-end">
+                            <a href="#" class="navbar-brand-2">
+                                <h1 class="text-primary mb-0"><i class="fas fa-hand-rock me-2"></i> Fitness</h1>
+                                <!-- <img src="img/logo.png" alt="Logo"> -->
+                            </a> 
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <div class="navbar-nav mx-0 mx-lg-auto">
+                                    <a href="index.html" class="nav-item nav-link">Home</a>
+                                    <a href="about.html" class="nav-item nav-link active">About</a>
+                                    <a href="course.html" class="nav-item nav-link">Courses</a>
+                                    <a href="blog.html" class="nav-item nav-link">Blogs</a>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                            <span class="dropdown-toggle">Pages</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a href="feature.html" class="dropdown-item">Our Features</a>
+                                            <a href="team.html" class="dropdown-item">Our team</a>
+                                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                            <a href="404.html" class="dropdown-item">404 Page</a>
+                                        </div>
+                                    </div>
+                                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                    <div class="nav-btn ps-3">
+                                        <button class="btn-search btn btn-primary btn-md-square mt-2 mt-lg-0 mb-4 mb-lg-0 flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                        <a href="#" class="btn btn-primary py-2 px-4 ms-0 ms-lg-3"> <span>Get Quote</span></a>
+                                    </div>
+                                    <div class="nav-shaps-1"></div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center bg-primary">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">About</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about pt-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-content h-100">
+                            <h4 class="text-primary">About Fitness Center</h4>
+                            <h1 class="display-4 text-white mb-4">We are the best at fulfilling your potential and achieving your goals.</h1>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In impedit accusantium autem quaerat natus nesciunt veritatis fugiat dolor eaque fuga.</p>
+                            <div class="tab-class pb-4">
+                                <ul class="nav d-flex mb-2">
+                                    <li class="nav-item mb-3">
+                                        <a class="d-flex py-2 active" data-bs-toggle="pill" href="#tab-1">
+                                            <span style="width: 150px;">Our Mission</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item mb-3">
+                                        <a class="d-flex py-2 mx-3" data-bs-toggle="pill" href="#tab-2">
+                                            <span style="width: 150px;">Our Vision</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item mb-3">
+                                        <a class="d-flex py-2" data-bs-toggle="pill" href="#tab-3">
+                                            <span style="width: 150px;">Our Goal</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                    <span class="fas fa-rocket text-white fa-4x me-4"></span>
+                                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab-2" class="tab-pane fade show p-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                    <span class="fas fa-rocket text-white fa-4x me-4"></span>
+                                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab-3" class="tab-pane fade show p-0">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="d-flex align-items-center border-top border-bottom py-4">
+                                                    <span class="fas fa-rocket text-white fa-4x me-4"></span>
+                                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-4 align-items-center">
+                                <div class="col-sm-6">
+                                    <a href="#" class="btn btn-primary py-3 px-5"> <span>Make Appointment</span></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex flex-shrink-0 ps-4">
+                                        <a href="#" class="btn btn-light btn-lg-square position-relative wow tada" data-wow-delay=".9s">
+                                            <i class="fa fa-phone-alt fa-2x"></i>
+                                            <div class="position-absolute" style="top: 5px; right: 5px;">
+                                                <span><i class="fa fa-comment-dots text-dark"></i></span>
+                                            </div>
+                                        </a>
+                                        <div class="d-flex flex-column ms-3">
+                                            <span>Call to Our Experts</span>
+                                            <a href="tel:+ 0123 456 7890"><span class="text-white">Free: + 0123 456 7890</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="about-img h-100">
+                            <div class="about-img-inner d-flex h-100">
+                                <img src="img/about-2.png" class="img-fluid w-100" style="object-fit: cover;" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fitness Goal start -->
+        <div class="container-fluid goal pt-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="goal-content">
+                            <h4 class="text-primary">Fitness Goal</h4>
+                            <h1 class="display-4 mb-4">Complete your possibilities, Achieve Your Fitness Goals.</h1>
+                            <div class="goal-item d-flex p-4">
+                                <div class="d-flex me-4">
+                                    <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                                        <img src="img/icon-1.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4>Free Fitness Training</h4>
+                                    <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore est harum</p>
+                                </div>
+                            </div>
+                            <div class="goal-item d-flex p-4 mb-4">
+                                <div class="d-flex me-4">
+                                    <div class="bg-primary d-inline p-3" style="width: 80px; height: 80px;">
+                                        <img src="img/icon-6.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4>Cardio and Strength</h4>
+                                    <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore est harum</p>
+                                </div>
+                            </div>
+                            <div class="ms-1">
+                                <a href="#" class="btn btn-primary py-3 px-5 ms-2"> <span>Read Details</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="h-100">
+                            <img src="img/fitness-goal-banner.png" class="img-fluid h-100" style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fitness Goal End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid feature bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary"> Why choose us?</h4>
+                    <h1 class="display-4 mb-4">Out Our Highlights Below</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="feature-carousel owl-carousel">
+                    <div class="feature-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-img">
+                            <img src="img/feature-1.jpg" class="img-fluid w-100"  alt="">
+                        </div>
+                        <div class="feature-content p-4">
+                            <h4 class="mb-3">Work Your Butt Off</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati voluptatum,
+                            </p>
+                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="feature-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-img">
+                            <img src="img/feature-2.jpg" class="img-fluid w-100"  alt="">
+                        </div>
+                        <div class="feature-content p-4">
+                            <h4 class="mb-3">Get In The groove</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati voluptatum,
+                            </p>
+                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="feature-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-img">
+                            <img src="img/feature-3.jpg" class="img-fluid w-100"  alt="">
+                        </div>
+                        <div class="feature-content p-4">
+                            <h4 class="mb-3">It's more Than A Game</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati voluptatum,
+                            </p>
+                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-img">
+                            <img src="img/feature-4.jpg" class="img-fluid w-100"  alt="">
+                        </div>
+                        <div class="feature-content p-4">
+                            <h4 class="mb-3">Get Fit Don't Quit</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati voluptatum,
+                            </p>
+                            <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-shaps"></div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Explore Fitness Start -->
+        <div class="container-fluid explore py-5 wow zoomIn" data-wow-delay="0.2s">
+            <div class="container py-5 text-center">
+                <h1 class="display-1 text-white mb-0"> Explore Fitness Center</h1>
+                <a class="btn btn-primary py-3 px-4 px-md-5 me-2" href="https://www.youtube.com/embed/DWRcNpR6Kdc"><i class="fas fa-play-circle me-2"></i> <span>Watch Video</span></a>
+            </div>
+        </div>
+        <!-- Explore Fitness End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid team py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Trainer</h4>
+                    <h1 class="display-4 mb-4">Meet Our Amazing Team</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="row gy-5 gy-lg-4 gx-4">
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h4>Trainer Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h4>Trainer Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h4>Trainer Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="team-icon">
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h4>Trainer Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="position-relative d-flex" style="transform: skew(18deg);">
+                            <input class="form-control border-0 w-100 py-3 pe-5" type="text" placeholder="Email address to Subscribe">
+                            <button type="button" class="btn-primary py-2 px-4 ms-3"> <span>Subscribe</span></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-primary btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4"><i class="fas fa-hand-rock text-primary me-2"></i> Fitness</h4>
+                            <p class="mb-0">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"> Home</a>
+                            <a href="#"> About us</a>
+                            <a href="#"> Our Courses</a>
+                            <a href="#"> Our Features</a>
+                            <a href="#"> Our Blog & news</a>
+                            <a href="#"> Testimonial</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4"> Contact Info</h4>
+                            <div class="row g-2">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Address</h5>
+                                            <p class="mb-0">123 street New York</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fas fa-envelope text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Mail Us</h5>
+                                            <p class="mb-0">info@example.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <i class="fa fa-phone-alt text-primary me-2"></i>
+                                        <div>
+                                            <h5 class="text-white mb-2">Telephone</h5>
+                                            <p class="mb-0">(+012) 3456 7890 123</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Recent Work</h4>
+                            <div class="row g-2">
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-9.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-10.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-11.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-12.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-1.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-2.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-3.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-4.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-5.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-6.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-7.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="footer-item-img">
+                                        <a href="#"><img src="img/work-8.jpg" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                        Distributed By <a href="https://themewagon.com/">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <div class="back-to-top">
+            <a href="#" class="btn"><i class="fa fa-arrow-up"></i></a>  
+        </div> 
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

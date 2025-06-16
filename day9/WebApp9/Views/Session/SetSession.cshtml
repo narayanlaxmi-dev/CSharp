@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Set Session";
+}
+
+<h2>Set Session</h2>
+
+<form asp-action="SetSession" method="post">
+    <label for="name">Enter your name:</label>
+    <input type="text" name="name" id="name" required />
+    <button type="submit">Set Session</button>
+</form>
+
+<p><a href="@Url.Action("GetSession")">View Session Value</a></p>

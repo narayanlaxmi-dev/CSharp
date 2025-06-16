@@ -1,0 +1,26 @@
+﻿nuGet pkg manager soln
+pgk install browse EntityFramework
+EntityFramework.Tools
+EntityFramework.sqlserver
+
+// https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration/ refer this documentation 
+then data folder create dbcontext 
+ public AppDBContext(DbContextOptions<AppDBContext> options)
+       : base(options)
+        {
+
+        }
+        public DbSet<Student> Students { get; set; }
+
+        program.cs above this line var app = builder.Build();
+        builder.Services.AddDbContext<AppDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DBConnString")));
+
+    appsetting.json add in last ,
+      "ConnectionStrings": {
+    "DBConnString": "Server=(localdb)\\mssqllocaldb; Database=StudentCrudDB; Trusted_Connection=True; MultipleActiveResultSets=true"
+  }
+
+  open nuget pgk manager console 
+  M> dotnet tool install --global dotnet-ef
+  M> dotnet ef migrations add InitialCreate --project ./applnName/applinname.csproj

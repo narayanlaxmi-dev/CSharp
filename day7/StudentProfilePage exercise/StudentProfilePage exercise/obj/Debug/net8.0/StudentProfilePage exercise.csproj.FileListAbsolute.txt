@@ -1,0 +1,34 @@
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\appsettings.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.staticwebassets.runtime.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.staticwebassets.endpoints.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.exe
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.deps.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.runtimeconfig.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\bin\Debug\net8.0\StudentProfilePage exercise.pdb
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.AssemblyInfoInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.AssemblyInfo.cs
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.RazorAssemblyInfo.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.RazorAssemblyInfo.cs
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\scopedcss\bundle\StudentProfilePage exercise.styles.css
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\scopedcss\projectbundle\StudentProfilePage exercise.bundle.scp.css
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets\msbuild.StudentProfilePage exercise.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets\msbuild.StudentProfilePage exercise.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets\msbuild.build.StudentProfilePage exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.StudentProfilePage exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StudentProfilePage exercise.props
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\refint\StudentProfilePage exercise.dll
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.pdb
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\StudentProfilePage exercise.genruntimeconfig.cache
+C:\Users\CDAC\Documents\C# Narayan\day7\StudentProfilePage exercise\StudentProfilePage exercise\obj\Debug\net8.0\ref\StudentProfilePage exercise.dll

@@ -1,0 +1,7 @@
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\bin\Debug\App3.InventoryManagementSys.exe.config
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\bin\Debug\App3.InventoryManagementSys.exe
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\bin\Debug\App3.InventoryManagementSys.pdb
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\obj\Debug\App3.InventoryManagementSys.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\obj\Debug\App3.InventoryManagementSys.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\obj\Debug\App3.InventoryManagementSys.exe
+C:\Users\CDAC\Documents\C# Narayan\day3\App3.InventoryManagementSys\App3.InventoryManagementSys\obj\Debug\App3.InventoryManagementSys.pdb

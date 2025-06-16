@@ -1,0 +1,14 @@
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\bin\Debug\AppAss.exe.config
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\bin\Debug\AppAss.exe
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\bin\Debug\AppAss.pdb
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\obj\Debug\AppAss.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\obj\Debug\AppAss.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\obj\Debug\AppAss.exe
+C:\Users\CDAC\Documents\C# Narayan\day1\AppAss\AppAss\obj\Debug\AppAss.pdb
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\bin\Debug\AppAss.exe.config
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\bin\Debug\AppAss.exe
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\bin\Debug\AppAss.pdb
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\obj\Debug\AppAss.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\obj\Debug\AppAss.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\obj\Debug\AppAss.exe
+C:\Users\CDAC\Documents\C# Narayan\Assignment\AppAss\AppAss\obj\Debug\AppAss.pdb

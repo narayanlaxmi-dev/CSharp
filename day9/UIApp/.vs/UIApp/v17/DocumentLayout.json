@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\uiapp\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|solutionrelative:views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\uiapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\uiapp\\views\\shared\\_mypartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|solutionrelative:views\\shared\\_mypartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\uiapp\\views\\shared\\_layoutgym.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81BEBE81-985A-4D79-8C04-6BC3C4EDCE79}|UIApp.csproj|solutionrelative:views\\shared\\_layoutgym.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 145,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:15:33.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:14:18.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_MyPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_MyPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MyPartialView.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_MyPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MyPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:06:59.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutGYM.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_LayoutGYM.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutGYM.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\UIApp\\Views\\Shared\\_LayoutGYM.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutGYM.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T04:06:17.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

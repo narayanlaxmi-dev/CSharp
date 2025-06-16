@@ -1,0 +1,7 @@
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\bin\Debug\App4.exe.config
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\bin\Debug\App4.exe
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\bin\Debug\App4.pdb
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\obj\Debug\App4.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\obj\Debug\App4.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\obj\Debug\App4.exe
+C:\Users\CDAC\Documents\C# Narayan\day5\App4\App4\obj\Debug\App4.pdb

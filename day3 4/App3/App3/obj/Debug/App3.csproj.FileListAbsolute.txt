@@ -1,0 +1,14 @@
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\bin\Debug\App3.exe.config
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\bin\Debug\App3.exe
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\bin\Debug\App3.pdb
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\obj\Debug\App3.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\obj\Debug\App3.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\obj\Debug\App3.exe
+C:\Users\CDAC\Documents\C# Narayan\day3\App3\App3\obj\Debug\App3.pdb
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\bin\Debug\App3.exe.config
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\bin\Debug\App3.exe
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\bin\Debug\App3.pdb
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\obj\Debug\App3.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\obj\Debug\App3.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\obj\Debug\App3.exe
+C:\Users\CDAC\Documents\C# Narayan\day3 4\App3\App3\obj\Debug\App3.pdb

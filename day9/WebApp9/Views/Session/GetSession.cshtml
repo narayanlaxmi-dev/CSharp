@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Get Session";
+}
+
+<h2>Session Value</h2>
+
+<p>UserName from Session: <strong>@ViewBag.UserName</strong></p>
+
+<p>
+    <a href="@Url.Action("SetSession")">Set Again</a> |
+    <a href="@Url.Action("ClearSession")">Clear Session</a>
+</p>

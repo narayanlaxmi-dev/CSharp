@@ -1,0 +1,6 @@
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\bin\Debug\Lib.dll
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\bin\Debug\Lib.pdb
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\obj\Debug\Lib.csproj.AssemblyReference.cache
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\obj\Debug\Lib.dll
+C:\Users\CDAC\Documents\C# Narayan\day2\App2\Lib\obj\Debug\Lib.pdb

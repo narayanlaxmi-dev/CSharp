@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\setsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\setsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\clearsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\clearsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\session\\getsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\session\\getsession.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\cookie\\setcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\cookie\\setcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\controllers\\cookiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:controllers\\cookiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\cookie\\deletecookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\cookie\\deletecookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\cookie\\getcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\cookie\\getcookie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:models\\onetoone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.UserProfile.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\what.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:what.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|c:\\users\\cdac\\documents\\c# narayan\\day9\\webapp9\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D26CC5-DEB7-4762-A56A-DF1CE24F3CC3}|WebApp9.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 255,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClearSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\ClearSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\ClearSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\ClearSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\ClearSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:11:21.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\GetSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\GetSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\GetSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\GetSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:11:01.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetSession.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\SetSession.cshtml",
+              "RelativeDocumentMoniker": "Views\\Session\\SetSession.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Session\\SetSession.cshtml",
+              "RelativeToolTip": "Views\\Session\\SetSession.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T11:09:56.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "Controllers\\SessionController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:06:47.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteCookie.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\DeleteCookie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cookie\\DeleteCookie.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\DeleteCookie.cshtml",
+              "RelativeToolTip": "Views\\Cookie\\DeleteCookie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T10:18:53.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetCookie.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\GetCookie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cookie\\GetCookie.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\GetCookie.cshtml",
+              "RelativeToolTip": "Views\\Cookie\\GetCookie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T10:18:17.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SetCookie.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\SetCookie.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cookie\\SetCookie.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\Cookie\\SetCookie.cshtml",
+              "RelativeToolTip": "Views\\Cookie\\SetCookie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T10:17:48.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CookieController.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\CookieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CookieController.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\CookieController.cs",
+              "RelativeToolTip": "Controllers\\CookieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:13:31.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T06:29:15.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T06:28:43.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.UserProfile.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.UserProfile.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.UserProfile.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-15T05:54:50.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:04:49.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T04:45:33.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:42:35.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.User.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.User.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MyCardinality/True/SqlTable/dbo.User.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-15T04:36:51.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:31:50.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "What.txt",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\What.txt",
+              "RelativeDocumentMoniker": "What.txt",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\What.txt",
+              "RelativeToolTip": "What.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-15T04:29:58.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\UserProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\UserProfileViewModel.cs",
+              "RelativeToolTip": "Models\\UserProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:26:30.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:22:23.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OneToOne.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToOne.cs",
+              "RelativeDocumentMoniker": "Models\\OneToOne.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day9\\WebApp9\\Models\\OneToOne.cs",
+              "RelativeToolTip": "Models\\OneToOne.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T03:47:38.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
