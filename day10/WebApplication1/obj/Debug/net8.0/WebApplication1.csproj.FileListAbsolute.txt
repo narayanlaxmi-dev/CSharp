@@ -32,3 +32,4 @@ C:\Users\CDAC\Documents\C# Narayan\day10\WebApplication1\obj\Debug\net8.0\refint
 C:\Users\CDAC\Documents\C# Narayan\day10\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\CDAC\Documents\C# Narayan\day10\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\CDAC\Documents\C# Narayan\day10\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\CDAC\Documents\C# Narayan\day10\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

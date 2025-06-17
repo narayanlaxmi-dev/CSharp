@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day7\\StudentProfilePage exercise\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|c:\\users\\cdac\\documents\\c# narayan\\day7\\studentprofilepage exercise\\studentprofilepage exercise\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|solutionrelative:studentprofilepage exercise\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|c:\\users\\cdac\\documents\\c# narayan\\day7\\studentprofilepage exercise\\studentprofilepage exercise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|solutionrelative:studentprofilepage exercise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|c:\\users\\cdac\\documents\\c# narayan\\day7\\studentprofilepage exercise\\studentprofilepage exercise\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|solutionrelative:studentprofilepage exercise\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|c:\\users\\cdac\\documents\\c# narayan\\day7\\studentprofilepage exercise\\studentprofilepage exercise\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|solutionrelative:studentprofilepage exercise\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A642C77B-912B-4E7B-B098-91934C42EF30}|StudentProfilePage exercise\\StudentProfilePage exercise.csproj|c:\\users\\cdac\\documents\\c# narayan\\day7\\studentprofilepage exercise\\studentprofilepage exercise\\models\\studentpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day7\\StudentProfilePage exercise\\StudentProfilePage exercise\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StudentProfilePage exercise\\Views\\Shared\\_Layout.cshtml",
@@ -63,8 +63,7 @@
               "RelativeToolTip": "StudentProfilePage exercise\\Models\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T10:45:04.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T10:45:04.579Z"
             },
             {
               "$type": "Document",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "StudentProfilePage exercise\\Models\\Enrollment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T10:44:59.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T10:44:59.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day7\\StudentProfilePage exercise\\StudentProfilePage exercise\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "StudentProfilePage exercise\\Views\\Student\\Index.cshtml",
@@ -89,12 +87,11 @@
               "RelativeToolTip": "StudentProfilePage exercise\\Views\\Student\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T10:26:05.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T10:26:05.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\day7\\StudentProfilePage exercise\\StudentProfilePage exercise\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentProfilePage exercise\\Controllers\\StudentController.cs",
@@ -115,8 +112,17 @@
               "RelativeToolTip": "StudentProfilePage exercise\\Models\\StudentPageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:48:01.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T09:48:01.076Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 689,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

@@ -1,0 +1,51 @@
+﻿@model WebApplication1.Models.StudentPageViewModel
+
+<table class="table table-bordered ">
+    <thead class="table-success">
+        <tr>
+            <th>Student ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Course Name</th>
+            <th>Enrollment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int index = 0;
+        }
+        @foreach (var student in Model.Students)
+        {
+            <tr class="d-md-table-row">
+                <td>@student.StudentId</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+
+                <td>
+                    @(Model.Contacts.Count > index
+                        ? Model.Contacts[index].PhoneNumber.ToString()
+                        : "N/A")
+                </td>
+                <td>
+                    @(Model.Contacts.Count > index
+                        ? Model.Contacts[index].Email
+                        : "N/A")
+                </td>
+
+                <td>
+                    @(Model.Enroll.Count > index
+                        ? Model.Enroll[index].CourseName
+                        : "N/A")
+                </td>
+                <td>
+                    @(Model.Enroll.Count > index
+                        ? Model.Enroll[index].EnrollmentDate.ToString("yyyy-MM-dd")
+                        : "N/A")
+                </td>
+            </tr>
+            index++;
+        }
+    </tbody>
+</table>

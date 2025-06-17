@@ -17,15 +17,16 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.MapControllers();// Attribute routing 
+
 
 app.UseAuthorization();
 
 //app.MapControllerRoute(
 //    name: "default",
 //    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
-app.MapControllerRoute(
-    name: "abc",
-    pattern: "{action=Privacy}/{controller=Home}/{id?}");
+//or
+//app.MapControllerRoute(
+//    name: "abc",
+//    pattern: "{action=Privacy}/{controller=Home}/{id?}");
 app.Run();
