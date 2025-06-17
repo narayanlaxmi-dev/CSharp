@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C# Collections and Use Cases</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>C# Collections and Their Best Use Cases</h1>
+
+<h2>✅ General Collections</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Use Case</th>
+      <th>Best Collection Type</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Store a list of student names</td>
+      <td><code>List&lt;string&gt;</code></td>
+      <td>Maintains insertion order, allows indexing and duplicates</td>
+    </tr>
+    <tr>
+      <td>Maintain a unique list of product codes</td>
+      <td><code>HashSet&lt;string&gt;</code></td>
+      <td>Automatically ensures uniqueness, fast lookup</td>
+    </tr>
+    <tr>
+      <td>Store key-value pairs for configuration settings</td>
+      <td><code>Dictionary&lt;string, string&gt;</code></td>
+      <td>Fast access via keys, good for mapping relationships</td>
+    </tr>
+    <tr>
+      <td>Store items with frequent additions/removals at both ends</td>
+      <td><code>LinkedList&lt;T&gt;</code></td>
+      <td>Efficient insert/delete at both ends</td>
+    </tr>
+    <tr>
+      <td>Queue of print jobs (FIFO)</td>
+      <td><code>Queue&lt;T&gt;</code></td>
+      <td>Enforces First-In-First-Out order</td>
+    </tr>
+    <tr>
+      <td>Undo/Redo operation (LIFO)</td>
+      <td><code>Stack&lt;T&gt;</code></td>
+      <td>Enforces Last-In-First-Out order</td>
+    </tr>
+    <tr>
+      <td>Store hierarchical data like tree</td>
+      <td>Custom class using <code>List&lt;T&gt;</code></td>
+      <td>Need a custom class with children property</td>
+    </tr>
+    <tr>
+      <td>Group employees by department</td>
+      <td><code>Dictionary&lt;string, List&lt;Employee&gt;&gt;</code></td>
+      <td>Key-based grouping with list of values</td>
+    </tr>
+    <tr>
+      <td>Track word frequency</td>
+      <td><code>Dictionary&lt;string, int&gt;</code></td>
+      <td>Key = word, Value = count</td>
+    </tr>
+    <tr>
+      <td>Sorted list of scores</td>
+      <td><code>SortedSet&lt;int&gt;</code> or <code>SortedList&lt;int, T&gt;</code></td>
+      <td>Sorted automatically</td>
+    </tr>
+    <tr>
+      <td>Limited size queue</td>
+      <td><code>Queue&lt;T&gt;</code> with custom capacity logic</td>
+      <td>Manual size handling required</td>
+    </tr>
+    <tr>
+      <td>Lookup with multiple keys</td>
+      <td><code>Dictionary&lt;Tuple&lt;K1, K2&gt;, V&gt;</code></td>
+      <td>Composite keys</td>
+    </tr>
+    <tr>
+      <td>Frequent reads, rare writes</td>
+      <td><code>ReadOnlyCollection&lt;T&gt;</code></td>
+      <td>Immutable after creation</td>
+    </tr>
+    <tr>
+      <td>Unique + ordered elements</td>
+      <td><code>List&lt;T&gt;</code> with custom logic</td>
+      <td>Manual duplicate check</td>
+    </tr>
+    <tr>
+      <td>Books categorized by genre and author</td>
+      <td><code>Dictionary&lt;string, Dictionary&lt;string, List&lt;Book&gt;&gt;&gt;</code></td>
+      <td>Nested dictionaries</td>
+    </tr>
+    <tr>
+      <td>Index access + sorting</td>
+      <td><code>List&lt;T&gt;</code> + <code>Sort()</code> or <code>SortedList&lt;TKey, TValue&gt;</code></td>
+      <td>Allows sorting</td>
+    </tr>
+    <tr>
+      <td>Fast item existence check</td>
+      <td><code>HashSet&lt;T&gt;</code></td>
+      <td>Fast <code>Contains()</code></td>
+    </tr>
+    <tr>
+      <td>Deck of cards (shuffle, draw)</td>
+      <td><code>List&lt;Card&gt;</code></td>
+      <td>Easy shuffle and indexing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>🔁 Special Collections (System.Collections.Specialized)</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Use Case</th>
+      <th>Collection</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>String key/value pairs with order</td>
+      <td><code>NameValueCollection</code></td>
+      <td>Supports duplicate keys and maintains order</td>
+    </tr>
+    <tr>
+      <td>Data binding with notifications</td>
+      <td><code>ObservableCollection&lt;T&gt;</code></td>
+      <td>Supports UI binding (e.g., WPF)</td>
+    </tr>
+    <tr>
+      <td>Sorted dictionary with order preserved</td>
+      <td><code>OrderedDictionary</code></td>
+      <td>Key-value with predictable order</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>🧵 Thread-Safe Collections (System.Collections.Concurrent)</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Use Case</th>
+      <th>Collection</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Multi-threaded FIFO queue</td>
+      <td><code>ConcurrentQueue&lt;T&gt;</code></td>
+      <td>Thread-safe</td>
+    </tr>
+    <tr>
+      <td>Thread-safe LIFO stack</td>
+      <td><code>ConcurrentStack&lt;T&gt;</code></td>
+      <td>Thread-safe</td>
+    </tr>
+    <tr>
+      <td>Concurrent dictionary access</td>
+      <td><code>ConcurrentDictionary&lt;TKey, TValue&gt;</code></td>
+      <td>Lock-free thread-safe operations</td>
+    </tr>
+    <tr>
+      <td>Blocking behavior for threads</td>
+      <td><code>BlockingCollection&lt;T&gt;</code></td>
+      <td>Supports blocking on full/empty</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

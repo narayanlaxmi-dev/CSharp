@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# Collections Diagram</title>
+    <style>
+        body {
+            font-family: Consolas, monospace;
+            background-color: #f9f9f9;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .diagram {
+            white-space: pre;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .section-title {
+            color: #0066cc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>C# Collections Diagram</h1>
+    <div class="diagram">
+C# COLLECTIONS
+──────────────
+       |
+┌──────┼──────────────┬────────────────────────┐
+|      |              |                        |
+Non-Generic      Generic Collections   Specialized Collections
+Collections     (System.Collections.   (System.Collections.
+(System.Collections)  Generic)             Specialized)
+       |              |                        |
+┌──────┼───────┐   ┌───┼──────────────────┐   ┌─────────────┬────────────┐
+|      |       |   |   |   |    |    |    |   |             |            |
+ArrayList Stack Queue List<T> Stack<T> Queue<T> Dictionary<TK,TV>  NameValueCollection
+Hashtable SortedList LinkedList<T> SortedList<TK,TV>               StringCollection
+BitArray                 HashSet<T>                                 StringDictionary
+                         SortedSet<T>                               OrderedDictionary
+                         ConcurrentBag<T>
+                         ConcurrentQueue<T>
+                         ConcurrentStack<T>
+    </div>
+</body>
+</html>

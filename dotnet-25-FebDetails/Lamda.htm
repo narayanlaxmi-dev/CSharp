@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lambda Expressions in C# - Simple Tutorial</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #222;
+      }
+      h1,
+      h2 {
+        color: #2c3e50;
+      }
+      code {
+        background-color: #f0f0f0;
+        padding: 2px 4px;
+        border-radius: 4px;
+        font-family: Consolas, monospace;
+      }
+      pre {
+        background-color: #f8f8f8;
+        padding: 12px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        overflow-x: auto;
+      }
+      ul {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lambda Expressions in C#</h1>
+    <p>
+      A <strong>lambda expression</strong> in C# is a concise way to represent
+      an anonymous method. It's often used with delegates, LINQ queries, or
+      event handlers.
+    </p>
+
+    <h2>Syntax</h2>
+    <p>The general form of a lambda expression is:</p>
+    <pre><code>(parameters) => expression_or_statement_block</code></pre>
+    <p>Example:</p>
+    <pre><code>(x, y) => x + y</code></pre>
+
+    <h2>1. Simple Lambda Example</h2>
+    <p>This lambda adds two integers:</p>
+    <pre><code>Func&lt;int, int, int&gt; add = (a, b) =&gt; a + b;
+Console.WriteLine(add(5, 3)); // Output: 8</code></pre>
+
+    <h2>2. Lambda with No Parameters</h2>
+    <p>This lambda prints a greeting without any parameters:</p>
+    <pre><code>Action greet = () =&gt; Console.WriteLine("Hello, world!");
+greet(); // Output: Hello, world!</code></pre>
+
+    <h2>3. Lambda with One Parameter</h2>
+    <p>Here, the lambda squares a number:</p>
+    <pre><code>Func&lt;int, int&gt; square = x =&gt; x * x;
+Console.WriteLine(square(4)); // Output: 16</code></pre>
+
+    <h2>4. Lambda with Statement Block</h2>
+    <p>When you need multiple statements, use a block:</p>
+    <pre><code>Func&lt;int, int, int&gt; multiply = (a, b) =&gt; {
+    int result = a * b;
+    return result;
+};
+Console.WriteLine(multiply(3, 4)); // Output: 12</code></pre>
+
+    <h2>5. Lambda in LINQ</h2>
+    <p>Filter even numbers from a list using LINQ:</p>
+    <pre><code>List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
+var evenNumbers = numbers.Where(n =&gt; n % 2 == 0);
+foreach (var num in evenNumbers)
+{
+    Console.WriteLine(num); // Output: 2, 4
+}</code></pre>
+
+    <h2>6. Lambda as Event Handler</h2>
+    <p>You can also use lambdas in event handlers:</p>
+    <pre><code>button.Click += (sender, e) =&gt; {
+    Console.WriteLine("Button clicked!");
+};</code></pre>
+
+    <h2>Why Use Lambda Expressions?</h2>
+    <ul>
+      <li>They make code shorter and more readable.</li>
+      <li>Essential for writing LINQ queries.</li>
+      <li>Allow defining quick, inline methods.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>
+      Lambda expressions enhance the expressiveness of your code, especially
+      when working with delegates and collections. Use them to keep your logic
+      concise and inline where appropriate.
+    </p>
+
+    <hr />
+    <p><em>Happy Coding!</em></p>
+  </body>
+</html>

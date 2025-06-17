@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# Collections Tutorial</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        pre { background: #ecf0f1; padding: 10px; border-left: 4px solid #2980b9; overflow-x: auto; }
+        code { font-family: Consolas, monospace; }
+        ul { margin-top: 0; }
+    </style>
+</head>
+<body>
+    <h1>C# Collections Tutorial</h1>
+
+    <p>Collections in C# are used to store, manage, and manipulate groups of related objects. They are part of the System.Collections and System.Collections.Generic namespaces.</p>
+
+    <h2>1. Arrays</h2>
+    <p>Fixed-size collection of elements of the same type.</p>
+    <pre><code>int[] numbers = new int[5] { 1, 2, 3, 4, 5 };
+foreach (int number in numbers)
+{
+    Console.WriteLine(number);
+}</code></pre>
+
+    <h2>2. ArrayList (Non-Generic)</h2>
+    <p>Allows storage of different types but lacks type safety.</p>
+    <pre><code>ArrayList list = new ArrayList();
+list.Add(1);
+list.Add("Hello");
+list.Add(3.14);
+foreach (var item in list)
+{
+    Console.WriteLine(item);
+}</code></pre>
+
+    <h2>3. List&lt;T&gt; (Generic)</h2>
+    <p>Strongly-typed, resizable list from System.Collections.Generic.</p>
+    <pre><code>List&lt;string&gt; fruits = new List&lt;string&gt; { "Apple", "Banana", "Mango" };
+fruits.Add("Orange");
+foreach (string fruit in fruits)
+{
+    Console.WriteLine(fruit);
+}</code></pre>
+
+    <h2>4. Dictionary&lt;TKey, TValue&gt;</h2>
+    <p>Stores key-value pairs. Keys must be unique.</p>
+    <pre><code>Dictionary&lt;int, string&gt; students = new Dictionary&lt;int, string&gt;();
+students[1] = "John";
+students[2] = "Jane";
+foreach (var kvp in students)
+{
+    Console.WriteLine($"ID: {kvp.Key}, Name: {kvp.Value}");
+}</code></pre>
+
+    <h2>5. HashSet&lt;T&gt;</h2>
+    <p>Stores unique elements only.</p>
+    <pre><code>HashSet&lt;int&gt; set = new HashSet&lt;int&gt; { 1, 2, 3, 2 };
+foreach (int item in set)
+{
+    Console.WriteLine(item);
+}</code></pre>
+
+    <h2>6. Queue&lt;T&gt;</h2>
+    <p>FIFO (First In First Out) collection.</p>
+    <pre><code>Queue&lt;string&gt; queue = new Queue&lt;string&gt;();
+queue.Enqueue("A");
+queue.Enqueue("B");
+Console.WriteLine(queue.Dequeue()); // A</code></pre>
+
+    <h2>7. Stack&lt;T&gt;</h2>
+    <p>LIFO (Last In First Out) collection.</p>
+    <pre><code>Stack&lt;int&gt; stack = new Stack&lt;int&gt;();
+stack.Push(1);
+stack.Push(2);
+Console.WriteLine(stack.Pop()); // 2</code></pre>
+
+    <h2>8. SortedList&lt;TKey, TValue&gt;</h2>
+    <p>Automatically sorts by key.</p>
+    <pre><code>SortedList&lt;int, string&gt; sortedList = new SortedList&lt;int, string&gt;();
+sortedList.Add(2, "B");
+sortedList.Add(1, "A");
+foreach (var item in sortedList)
+{
+    Console.WriteLine($"{item.Key}: {item.Value}");
+}</code></pre>
+
+    <h2>Best Practices</h2>
+    <ul>
+        <li>Use generic collections for type safety and performance.</li>
+        <li>Prefer List&lt;T&gt; over ArrayList.</li>
+        <li>Use Dictionary&lt;TKey, TValue&gt; when key-value storage is needed.</li>
+        <li>Use appropriate collection based on use-case: Queue for FIFO, Stack for LIFO, HashSet for uniqueness.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>C# collections provide a rich set of options for handling data. Choosing the right collection type based on performance and access patterns is crucial for building efficient applications.</p>
+</body>
+</html>

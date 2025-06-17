@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluent API Tutorial - Entity Framework Core</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background: #f4f4f4; padding: 10px; border-left: 3px solid #ccc; }
+        code { color: #c7254e; background-color: #f9f2f4; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+    <h1>Fluent API in Entity Framework Core</h1>
+    <p>Fluent API is a powerful way to configure entity properties and relationships in Entity Framework Core. It provides more control than data annotations.</p>
+
+    <h2>1. Setting Up Models</h2>
+    <h3>Student.cs</h3>
+    <pre><code>public class Student
+{
+    public int StudentId { get; set; }
+    public string FullName { get; set; }
+    public DateTime DateOfBirth { get; set; }
+    public int DepartmentId { get; set; }
+    public Department Department { get; set; }
+}</code></pre>
+
+    <h3>Department.cs</h3>
+    <pre><code>public class Department
+{
+    public int DepartmentId { get; set; }
+    public string DepartmentName { get; set; }
+    public ICollection&lt;Student&gt; Students { get; set; }
+}</code></pre>
+
+    <h2>2. Configure Fluent API in DbContext</h2>
+    <pre><code>public class AppDbContext : DbContext
+{
+    public DbSet&lt;Student&gt; Students { get; set; }
+    public DbSet&lt;Department&gt; Departments { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Configure Student entity
+        modelBuilder.Entity&lt;Student&gt;()
+            .HasKey(s =&gt; s.StudentId);
+
+        modelBuilder.Entity&lt;Student&gt;()
+            .Property(s =&gt; s.FullName)
+            .IsRequired()
+            .HasMaxLength(100);
+
+        modelBuilder.Entity&lt;Student&gt;()
+            .HasOne(s =&gt; s.Department)
+            .WithMany(d =&gt; d.Students)
+            .HasForeignKey(s =&gt; s.DepartmentId);
+
+        // Configure Department entity
+        modelBuilder.Entity&lt;Department&gt;()
+            .HasKey(d =&gt; d.DepartmentId);
+
+        modelBuilder.Entity&lt;Department&gt;()
+            .Property(d =&gt; d.DepartmentName)
+            .IsRequired()
+            .HasMaxLength(50);
+    }
+}</code></pre>
+
+    <h2>3. Explanation</h2>
+    <ul>
+        <li><code>HasKey()</code> sets the primary key.</li>
+        <li><code>Property()</code> allows property-specific configuration like <code>IsRequired()</code> and <code>HasMaxLength()</code>.</li>
+        <li><code>HasOne().WithMany().HasForeignKey()</code> configures relationships (here, one-to-many).</li>
+    </ul>
+
+    <h2>4. Running Migrations</h2>
+    <pre><code>dotnet ef migrations add InitialCreate
+    dotnet ef database update</code></pre>
+
+    <h2>5. Summary</h2>
+    <p>Fluent API is useful when you need fine-tuned configuration of your models. It complements or replaces data annotations and is ideal for complex schema setups.</p>
+</body>
+</html>

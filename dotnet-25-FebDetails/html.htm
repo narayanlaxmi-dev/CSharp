@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Framework vs .NET Core vs Mono vs Xamarin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>.NET Family Overview</h1>
+        <p>The .NET ecosystem includes several implementations that serve different purposes. In this tutorial, we’ll explore four major components:</p>
+        <ul>
+            <li>.NET Framework</li>
+            <li>.NET Core</li>
+            <li>Mono</li>
+            <li>Xamarin</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>.NET Framework</h2>
+        <p>.NET Framework is the original implementation of .NET developed by Microsoft in 2002. It is Windows-only and used mainly for desktop (WinForms, WPF) and ASP.NET web apps.</p>
+        <ul>
+            <li><strong>Platform:</strong> Windows</li>
+            <li><strong>Use Case:</strong> Enterprise desktop apps, legacy ASP.NET apps</li>
+            <li><strong>Limitations:</strong> Not cross-platform</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>.NET Core</h2>
+        <p>.NET Core is a modern, cross-platform, open-source framework from Microsoft. It supports Windows, Linux, and macOS and is used for web, microservices, and cloud applications.</p>
+        <ul>
+            <li><strong>Platform:</strong> Cross-platform</li>
+            <li><strong>Use Case:</strong> Web APIs, cloud apps, console apps</li>
+            <li><strong>Advantages:</strong> Fast performance, modular, CLI support</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mono</h2>
+        <p>Mono is an open-source version of .NET Framework. It was created to allow .NET apps to run on platforms like Linux and macOS, before .NET Core existed.</p>
+        <ul>
+            <li><strong>Platform:</strong> Cross-platform (Linux, macOS, iOS, Android)</li>
+            <li><strong>Use Case:</strong> Legacy .NET compatibility on non-Windows systems</li>
+            <li><strong>Note:</strong> Now used primarily with Xamarin</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Xamarin</h2>
+        <p>Xamarin is a mobile app development platform using C# and .NET to build apps for Android and iOS with a single codebase. It internally uses Mono to run .NET code on mobile platforms.</p>
+        <ul>
+            <li><strong>Platform:</strong> Android, iOS</li>
+            <li><strong>Use Case:</strong> Cross-platform mobile app development</li>
+            <li><strong>Key Feature:</strong> Code sharing across platforms</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Comparison Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>.NET Framework</th>
+                    <th>.NET Core</th>
+                    <th>Mono</th>
+                    <th>Xamarin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cross-platform</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Open-source</td>
+                    <td>Partially</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Primary Use</td>
+                    <td>Windows apps</td>
+                    <td>Web & cloud apps</td>
+                    <td>Legacy support</td>
+                    <td>Mobile apps</td>
+                </tr>
+                <tr>
+                    <td>Release Year</td>
+                    <td>2002</td>
+                    <td>2016</td>
+                    <td>2004</td>
+                    <td>2011</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <p>Choosing the right .NET technology depends on your application requirements. For Windows-only applications, .NET Framework may suffice. For cross-platform and modern development, .NET Core or .NET (latest version) is recommended. Xamarin is your choice for mobile development, while Mono helps in special legacy cases.</p>
+    </section>
+</body>
+</html>

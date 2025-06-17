@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dependency Injection and IoC in ASP.NET Core MVC</title>
+  </head>
+  <body>
+    <h1>Dependency Injection (DI) and Inversion of Control (IoC)</h1>
+
+    <h2>1. Logging Service Example</h2>
+    <p><strong>Interface:</strong></p>
+    <pre><code>public interface ILoggerService
+{
+    void Log(string message);
+}</code></pre>
+
+    <p><strong>Implementation:</strong></p>
+    <pre><code>public class ConsoleLogger : ILoggerService
+{
+    public void Log(string message)
+    {
+        Console.WriteLine($"[LOG]: {message}");
+    }
+}</code></pre>
+
+    <p><strong>Registration:</strong></p>
+    <pre><code>builder.Services.AddSingleton&lt;ILoggerService, ConsoleLogger&gt;();</code></pre>
+
+    <p><strong>Usage:</strong></p>
+    <pre><code>public class DashboardController : Controller
+{
+    private readonly ILoggerService _logger;
+    public DashboardController(ILoggerService logger)
+    {
+        _logger = logger;
+    }
+
+    public IActionResult Index()
+    {
+        _logger.Log("Dashboard loaded.");
+        return View();
+    }
+}</code></pre>
+
+    <h2>2. Email Notification System</h2>
+    <p><strong>Interface:</strong></p>
+    <pre><code>public interface IEmailSender
+{
+    void SendEmail(string to, string subject, string body);
+}</code></pre>
+
+    <p><strong>Implementation:</strong></p>
+    <pre><code>public class SmtpEmailSender : IEmailSender
+{
+    public void SendEmail(string to, string subject, string body)
+    {
+        Console.WriteLine($"To: {to}, Subject: {subject}, Body: {body}");
+    }
+}</code></pre>
+
+    <p><strong>Registration:</strong></p>
+    <pre><code>builder.Services.AddScoped&lt;IEmailSender, SmtpEmailSender&gt;();</code></pre>
+
+    <p><strong>Usage:</strong></p>
+    <pre><code>public class ContactController : Controller
+{
+    private readonly IEmailSender _emailSender;
+    public ContactController(IEmailSender emailSender)
+    {
+        _emailSender = emailSender;
+    }
+
+    [HttpPost]
+    public IActionResult Send(string email)
+    {
+        _emailSender.SendEmail(email, "Thanks!", "We received your inquiry.");
+        return View("Confirmation");
+    }
+}</code></pre>
+
+    <h2>3. Shopping Cart Service</h2>
+    <p><strong>Interface:</strong></p>
+    <pre><code>public interface IShoppingCart
+{
+    void AddItem(string item);
+    List&lt;string&gt; GetItems();
+}</code></pre>
+
+    <p><strong>Implementation:</strong></p>
+    <pre><code>public class ShoppingCart : IShoppingCart
+{
+    private readonly List&lt;string&gt; _items = new();
+    public void AddItem(string item) => _items.Add(item);
+    public List&lt;string&gt; GetItems() => _items;
+}</code></pre>
+
+    <p><strong>Registration:</strong></p>
+    <pre><code>builder.Services.AddScoped&lt;IShoppingCart, ShoppingCart&gt;();</code></pre>
+
+    <p><strong>Usage:</strong></p>
+    <pre><code>public class CartController : Controller
+{
+    private readonly IShoppingCart _cart;
+    public CartController(IShoppingCart cart)
+    {
+        _cart = cart;
+    }
+
+    public IActionResult Add(string item)
+    {
+        _cart.AddItem(item);
+        return RedirectToAction("Show");
+    }
+
+    public IActionResult Show()
+    {
+        var items = _cart.GetItems();
+        return View(items);
+    }
+}</code></pre>
+  </body>
+</html>

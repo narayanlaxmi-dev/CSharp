@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Framework vs .NET Core vs Mono vs Xamarin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        pre {
+            background: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Existing Sections Omitted for Brevity -->
+
+    <section>
+        <h2>Method Hiding in C#</h2>
+        <p>Method hiding in C# allows a derived class to define a new implementation of a method that exists in the base class. It is done using the <code>new</code> keyword.</p>
+
+        <h3>Why Use Method Hiding?</h3>
+        <ul>
+            <li>To intentionally hide a base class member in a derived class.</li>
+            <li>When you want to redefine behavior without affecting the base class definition.</li>
+        </ul>
+
+        <h3>Example of Method Hiding:</h3>
+        <pre><code>public class BaseClass {
+    public void Show() {
+        Console.WriteLine("Base class Show method");
+    }
+}
+
+public class DerivedClass : BaseClass {
+    public new void Show() {
+        Console.WriteLine("Derived class Show method");
+    }
+}</code></pre>
+        <p>Output:</p>
+        <pre><code>BaseClass obj = new DerivedClass();
+obj.Show(); // Output: Base class Show method</code></pre>
+
+        <p>To call the derived version:</p>
+        <pre><code>DerivedClass obj = new DerivedClass();
+obj.Show(); // Output: Derived class Show method</code></pre>
+
+        <h3>Note:</h3>
+        <ul>
+            <li>If you omit the <code>new</code> keyword, the compiler shows a warning, but it still hides the base method.</li>
+            <li>Method hiding does not support polymorphism like method overriding does.</li>
+        </ul>
+
+        <h3>Variable Hiding in C#</h3>
+        <p>If both parent and child classes have variables with the same name, the derived class variable hides the base class variable.</p>
+
+        <h4>Example:</h4>
+        <pre><code>public class Parent {
+    public int number = 10;
+}
+
+public class Child : Parent {
+    public new int number = 20;
+}</code></pre>
+        <pre><code>Child obj = new Child();
+Console.WriteLine(obj.number); // Output: 20
+
+Parent refObj = obj;
+Console.WriteLine(refObj.number); // Output: 10</code></pre>
+
+        <p><strong>Explanation:</strong> Field hiding means the member accessed is determined by the type of the reference, not the runtime type of the object.</p>
+
+        <h3>Same Instance Name in Parent and Child Class</h3>
+        <p>When both the parent and child classes define instance members (fields or properties) with the same name, the member of the derived class hides the one from the base class. Which member gets accessed depends on the reference type used to access it.</p>
+
+        <h4>Example:</h4>
+        <pre><code>public class Parent {
+    public string name = "Parent";
+}
+
+public class Child : Parent {
+    public new string name = "Child";
+}</code></pre>
+        <pre><code>Child obj = new Child();
+Console.WriteLine(obj.name);       // Output: Child
+
+Parent refObj = obj;
+Console.WriteLine(refObj.name);    // Output: Parent</code></pre>
+
+        <p><strong>Why?</strong> Because field access is determined by the reference type, not the runtime object. This is different from virtual methods where polymorphism is applied and the runtime object determines which method is invoked.</p>
+
+        <p>To avoid confusion and accidental bugs, such naming overlaps should generally be avoided unless there’s a specific reason and <code>new</code> keyword is clearly used.</p>
+
+        <h3>Key Differences Between Hiding and Overriding</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th>Method Hiding</th>
+                    <th>Method Overriding</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Keyword Used</td>
+                    <td><code>new</code></td>
+                    <td><code>override</code></td>
+                </tr>
+                <tr>
+                    <td>Polymorphism</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Behavior Determined By</td>
+                    <td>Reference Type</td>
+                    <td>Object Type</td>
+                </tr>
+                <tr>
+                    <td>Warning</td>
+                    <td>Shown if <code>new</code> not used</td>
+                    <td>Not applicable</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Conclusion Section Below Remains Unchanged -->
+</body>
+</html>

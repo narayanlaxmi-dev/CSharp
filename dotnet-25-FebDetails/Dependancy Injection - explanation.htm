@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Definition of Dependency Injection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      ul {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Technical Definition of Dependency Injection (DI)</h1>
+    <p>
+      <strong>Dependency Injection (DI)</strong> is a design pattern and
+      architectural technique that enables the decoupling of object creation
+      from object usage. Rather than an object instantiating its own
+      dependencies directly, its dependencies (often defined as interfaces) are
+      provided externally—typically by a DI container or framework—via
+      constructor parameters, properties, or method arguments.
+    </p>
+
+    <h2>Key Points</h2>
+    <ul>
+      <li>
+        <strong>Decoupling:</strong> The consumer of a service does not control
+        its instantiation, reducing tight coupling between components.
+      </li>
+      <li>
+        <strong>Inversion of Control (IoC):</strong> DI is a form of IoC, where
+        the responsibility of creating and managing dependent objects is
+        transferred from the application code to the container.
+      </li>
+      <li>
+        <strong>Flexibility and Testability:</strong> By depending on
+        abstractions rather than concrete implementations, DI facilitates easier
+        unit testing (allowing the use of mocks or stubs) and improves
+        maintenance and the overall flexibility of the application.
+      </li>
+    </ul>
+
+    <p>
+      For example, if a class requires logging functionality, instead of
+      instantiating a concrete logger within the class, the class defines a
+      dependency on an <code>ILogger</code> interface. A DI container then
+      configures which concrete implementation of <code>ILogger</code> should be
+      injected when the class is instantiated. This makes the codebase more
+      modular and easier to manage.
+    </p>
+
+    <h2>Example Usage</h2>
+    <p>Consider a class that depends on a logging service. Instead of:</p>
+    <pre><code>
+public class SomeClass {
+    private readonly ILogger logger = new ConsoleLogger();
+    // ...
+}
+  </code></pre>
+    <p>You would define your dependency as:</p>
+    <pre><code>
+public class SomeClass {
+    private readonly ILogger logger;
+
+    public SomeClass(ILogger logger) {
+        this.logger = logger;
+    }
+    
+    // ...
+}
+  </code></pre>
+    <p>
+      With the DI container configured, the container will inject the
+      appropriate <code>ILogger</code> implementation when an instance of
+      <code>SomeClass</code> is created.
+    </p>
+  </body>
+</html>

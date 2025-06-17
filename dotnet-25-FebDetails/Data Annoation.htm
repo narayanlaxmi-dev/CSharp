@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Entity Framework Core - Data Annotations Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            overflow: auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Entity Framework Core: Data Annotations Tutorial</h1>
+
+    <div class="section">
+        <h2>What are Data Annotations?</h2>
+        <p>
+            Data Annotations are attributes you can apply to your model classes and properties
+            to configure how Entity Framework Core maps them to the database.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>1. [Key]</h2>
+        <p>Marks a property as the primary key.</p>
+        <pre><code>using System.ComponentModel.DataAnnotations;
+
+public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>2. [Required]</h2>
+        <p>Makes a property non-nullable in the database.</p>
+        <pre><code>public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    [Required]
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>3. [MaxLength] and [MinLength]</h2>
+        <p>Restrict the length of string data.</p>
+        <pre><code>public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    [Required]
+    [MaxLength(50)]
+    [MinLength(3)]
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>4. [StringLength]</h2>
+        <p>Defines both minimum and maximum string length.</p>
+        <pre><code>public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    [StringLength(50, MinimumLength = 3)]
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>5. [Column]</h2>
+        <p>Change the column name or type in the database.</p>
+        <pre><code>using System.ComponentModel.DataAnnotations.Schema;
+
+public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    [Column("StudentName", TypeName = "varchar(100)")]
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>6. [Table]</h2>
+        <p>Map a class to a different table name.</p>
+        <pre><code>[Table("tbl_Students")]
+public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    public string Name { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>7. [NotMapped]</h2>
+        <p>Exclude a property from being mapped to the database.</p>
+        <pre><code>public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    public string Name { get; set; }
+
+    [NotMapped]
+    public int TemporaryValue { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>8. [ForeignKey]</h2>
+        <p>Define foreign key relationship.</p>
+        <pre><code>public class Student
+{
+    [Key]
+    public int RollNo { get; set; }
+
+    public string Name { get; set; }
+
+    public int DepartmentId { get; set; }
+
+    [ForeignKey("DepartmentId")]
+    public Department Department { get; set; }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>Example DbContext</h2>
+        <pre><code>public class AppDbContext : DbContext
+{
+    public DbSet&lt;Student&gt; Students { get; set; }
+    public DbSet&lt;Department&gt; Departments { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer("Your_Connection_String_Here");
+    }
+}</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>Conclusion</h2>
+        <p>
+            Data Annotations in EF Core are a quick way to configure models without Fluent API.
+            However, for advanced scenarios, Fluent API is often more flexible.
+        </p>
+    </div>
+</body>
+</html>

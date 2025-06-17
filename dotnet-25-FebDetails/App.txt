@@ -1,0 +1,70 @@
+import React, { useEffect, useState } from "react";
+import {
+  getEmployees,
+  addEmployee,
+  updateEmployee,
+  deleteEmployee
+} from "./EmployeeService";
+
+function App() {
+  const [employees, setEmployees] = useState([]);
+  const [name, setName] = useState("");
+  const [editId, setEditId] = useState(null);
+
+  const loadEmployees = async () => {
+    const res = await getEmployees();
+    setEmployees(res.data);
+  };
+
+  useEffect(() => {
+    loadEmployees();
+  }, []);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (editId) {
+      await updateEmployee(editId, { id: editId, name });
+    } else {
+      await addEmployee({ name });
+    }
+    setName("");
+    setEditId(null);
+    loadEmployees();
+  };
+
+  const handleEdit = (emp) => {
+    setName(emp.name);
+    setEditId(emp.id);
+  };
+
+  const handleDelete = async (id) => {
+    await deleteEmployee(id);
+    loadEmployees();
+  };
+
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>Employee CRUD</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Employee Name"
+          required
+        />
+        <button type="submit">{editId ? "Update" : "Add"}</button>
+      </form>
+      <ul>
+        {employees.map((emp) => (
+          <li key={emp.id}>
+            {emp.name}
+            <button onClick={() => handleEdit(emp)}>Edit</button>
+            <button onClick={() => handleDelete(emp.id)}>Delete</button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default App;

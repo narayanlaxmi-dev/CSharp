@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anonymous Methods in C# - Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        pre {
+            background: #efefef;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, monospace;
+        }
+        .note {
+            background: #fff3cd;
+            border-left: 5px solid #ffeeba;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Anonymous Methods in C# - Tutorial</h1>
+
+    <p>An <strong>anonymous method</strong> is a method without a name, defined inline using the <code>delegate</code> keyword.</p>
+
+    <div class="note">
+        <strong>Note:</strong> Anonymous methods were introduced in C# 2.0. In modern code, they are often replaced with lambda expressions.
+    </div>
+
+    <h2>Example 1: Basic Anonymous Method</h2>
+    <pre><code>delegate void PrintMessage();
+
+PrintMessage msg = delegate() {
+    Console.WriteLine("Hello from anonymous method!");
+};
+
+msg();</code></pre>
+
+    <h2>Example 2: With Parameters</h2>
+    <pre><code>delegate void GreetUser(string name);
+
+GreetUser greet = delegate(string name) {
+    Console.WriteLine("Hello, " + name + "!");
+};
+
+greet("Alice");</code></pre>
+
+    <h2>Example 3: Returning a Value</h2>
+    <pre><code>delegate int AddNumbers(int a, int b);
+
+AddNumbers add = delegate(int a, int b) {
+    return a + b;
+};
+
+Console.WriteLine(add(3, 5));</code></pre>
+
+    <h2>Example 4: With Events</h2>
+    <pre><code>public static event EventHandler MyEvent;
+
+MyEvent += delegate(object sender, EventArgs e) {
+    Console.WriteLine("Event triggered!");
+};
+
+MyEvent?.Invoke(null, EventArgs.Empty);</code></pre>
+
+    <h2>Example 5: Capturing Local Variables</h2>
+    <pre><code>int count = 5;
+
+Action show = delegate() {
+    Console.WriteLine("Count is: " + count);
+};
+
+show();</code></pre>
+
+    <h2>Anonymous Method vs Lambda</h2>
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>Anonymous Method</th>
+            <th>Lambda Expression</th>
+        </tr>
+        <tr>
+            <td>Syntax</td>
+            <td><code>delegate(int x) { return x * x; }</code></td>
+            <td><code>x => x * x</code></td>
+        </tr>
+        <tr>
+            <td>Introduced In</td>
+            <td>C# 2.0</td>
+            <td>C# 3.0</td>
+        </tr>
+        <tr>
+            <td>Type Inference</td>
+            <td>No</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Readability</td>
+            <td>Less concise</td>
+            <td>More concise</td>
+        </tr>
+    </table>
+
+</body>
+</html>

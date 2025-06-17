@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LINQ in C# - Simple Guide</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+      code {
+        background-color: #f4f4f4;
+        padding: 2px 4px;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        overflow-x: auto;
+      }
+      h2 {
+        color: #333366;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LINQ in C# - Simple Explanations and Examples</h1>
+
+    <h2>What is LINQ?</h2>
+    <p>
+      LINQ (Language Integrated Query) is a feature in C# that allows you to
+      query collections like arrays, lists, or databases in a readable and
+      concise way.
+    </p>
+
+    <h2>1. Filtering with <code>where</code></h2>
+    <pre><code>
+var numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5 };
+var evenNumbers = numbers.Where(n =&gt; n % 2 == 0);
+
+foreach (var num in evenNumbers)
+{
+    Console.WriteLine(num);
+}
+    </code></pre>
+
+    <h2>2. Sorting with <code>orderby</code></h2>
+    <pre><code>
+var names = new List&lt;string&gt; { "Alice", "Bob", "Charlie" };
+var sortedNames = names.OrderBy(name =&gt; name);
+
+foreach (var name in sortedNames)
+{
+    Console.WriteLine(name);
+}
+    </code></pre>
+
+    <h2>3. Selecting with <code>select</code></h2>
+    <pre><code>
+var numbers = new List&lt;int&gt; { 1, 2, 3 };
+var squares = numbers.Select(n =&gt; n * n);
+
+foreach (var square in squares)
+{
+    Console.WriteLine(square);
+}
+    </code></pre>
+
+    <h2>4. Combining with <code>select</code> and anonymous types</h2>
+    <pre><code>
+var people = new List&lt;Person&gt;
+{
+    new Person { Name = "John", Age = 30 },
+    new Person { Name = "Jane", Age = 25 }
+};
+
+var namesWithAges = people.Select(p =&gt; new { p.Name, p.Age });
+
+foreach (var item in namesWithAges)
+{
+    Console.WriteLine($&quot;{item.Name} is {item.Age} years old.&quot;);
+}
+    </code></pre>
+
+    <p>
+      <em
+        >Note: Make sure you have <code>using System.Linq;</code> at the top of
+        your file to use LINQ.</em
+      >
+    </p>
+  </body>
+</html>

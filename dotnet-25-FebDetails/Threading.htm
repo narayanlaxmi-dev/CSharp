@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C# Threading Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f9f9f9;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333366;
+        }
+        pre {
+            background: #eeeeee;
+            padding: 10px;
+            border-left: 4px solid #333366;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+        }
+        th {
+            background-color: #ddd;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>C# Threading Tutorial</h1>
+
+    <h2>1. What is Threading?</h2>
+    <p>Threading allows your program to do multiple tasks at the same time (parallelism). It improves performance in applications with UI, networking, or heavy computations.</p>
+
+    <h2>2. Creating and Starting a Thread</h2>
+    <pre><code>using System;
+using System.Threading;
+
+class Program
+{
+    static void PrintNumbers()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine($"Number: {i}");
+            Thread.Sleep(1000); // Pause for 1 second
+        }
+    }
+
+    static void Main()
+    {
+        Thread t = new Thread(PrintNumbers); // Create thread
+        t.Start(); // Start thread
+
+        Console.WriteLine("Main thread continues...");
+    }
+}</code></pre>
+
+    <h2>3. Thread with Parameters</h2>
+    <pre><code>using System;
+using System.Threading;
+
+class Program
+{
+    static void PrintMessage(object message)
+    {
+        Console.WriteLine("Message: " + message);
+    }
+
+    static void Main()
+    {
+        Thread t = new Thread(PrintMessage);
+        t.Start("Hello from thread!");
+    }
+}</code></pre>
+
+    <h2>4. Foreground vs Background Thread</h2>
+    <pre><code>Thread t = new Thread(PrintNumbers);
+t.IsBackground = true; // Set as background
+t.Start();</code></pre>
+
+    <h2>5. Thread.Join()</h2>
+    <pre><code>Thread t = new Thread(PrintNumbers);
+t.Start();
+t.Join(); // Waits for t to complete
+
+Console.WriteLine("Thread finished!");</code></pre>
+
+    <h2>6. Thread Safety & Locking</h2>
+    <pre><code>class Counter
+{
+    private int count = 0;
+    private object lockObj = new object();
+
+    public void Increment()
+    {
+        lock (lockObj)
+        {
+            count++;
+        }
+    }
+}</code></pre>
+
+    <h2>7. ThreadPool</h2>
+    <pre><code>using System;
+using System.Threading;
+
+class Program
+{
+    static void PrintTask(object state)
+    {
+        Console.WriteLine("Task running on thread pool");
+    }
+
+    static void Main()
+    {
+        ThreadPool.QueueUserWorkItem(PrintTask);
+        Console.ReadLine();
+    }
+}</code></pre>
+
+    <h2>8. Task vs Thread</h2>
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>Thread</th>
+            <th>Task</th>
+        </tr>
+        <tr>
+            <td>Low-level</td>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Manual control</td>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Thread pooling</td>
+            <td>No</td>
+            <td>Yes (by default)</td>
+        </tr>
+        <tr>
+            <td>Async/await</td>
+            <td>No</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+
+    <p><strong>Note:</strong> Prefer <code>Task</code> for modern async programming.</p>
+
+    <h2>9. Modern Threading with Task</h2>
+    <pre><code>using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task Main()
+    {
+        await Task.Run(() =>
+        {
+            Console.WriteLine("Running in a task");
+        });
+
+        Console.WriteLine("Main done");
+    }
+}</code></pre>
+
+    <h2>10. Best Practices</h2>
+    <ul>
+        <li>Avoid creating too many threads manually. Use <code>Task</code> or <code>ThreadPool</code>.</li>
+        <li>Always handle exceptions inside threads.</li>
+        <li>Use <code>lock</code>, <code>Monitor</code>, or <code>Mutex</code> to protect shared resources.</li>
+        <li>Prefer <code>async-await</code> in modern apps.</li>
+    </ul>
+
+</body>
+</html>

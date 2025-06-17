@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP.NET Core MVC Validation Tutorial</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background: #f4f4f4; padding: 10px; border-left: 3px solid #ccc; overflow-x: auto; }
+        code { color: #c7254e; background-color: #f9f2f4; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+    <h1>Validation in ASP.NET Core MVC</h1>
+
+    <h2>1. Validation Using Data Annotations</h2>
+    <p>Data Annotations are attributes added to model properties to define validation rules.</p>
+
+    <h3>Example Model</h3>
+    <pre><code>public class Student
+{
+    public int Id { get; set; }
+
+    [Required(ErrorMessage = "Name is required")]
+    [StringLength(100)]
+    public string Name { get; set; }
+
+    [Range(18, 60, ErrorMessage = "Age must be between 18 and 60")]
+    public int Age { get; set; }
+
+    [EmailAddress(ErrorMessage = "Invalid Email Address")]
+    public string Email { get; set; }
+}</code></pre>
+
+    <h3>Example Controller Action</h3>
+    <pre><code>[HttpPost]
+public IActionResult Create(Student student)
+{
+    if (ModelState.IsValid)
+    {
+        // Save to DB or perform business logic
+        return RedirectToAction("Index");
+    }
+    return View(student);
+}</code></pre>
+
+    <h2>2. Client-Side and Server-Side Validation</h2>
+
+    <h3>Client-Side Validation</h3>
+    <p>Enabled automatically when using Tag Helpers and adding validation scripts in your view:</p>
+    <pre><code>@section Scripts {
+    &lt;partial name=\"_ValidationScriptsPartial\" /&gt;
+}</code></pre>
+    <p>Validation messages will appear in the browser without sending the request to the server.</p>
+
+    <h3>Server-Side Validation</h3>
+    <p>Occurs after form submission. You must check <code>ModelState.IsValid</code> in the controller.</p>
+
+    <h2>3. Self-Validated Model using IValidatableObject</h2>
+    <p>This is used when your validation logic cannot be expressed through data annotations.</p>
+
+    <h3>Example</h3>
+    <pre><code>public class Product : IValidatableObject
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public decimal DiscountPrice { get; set; }
+
+    public IEnumerable&lt;ValidationResult&gt; Validate(ValidationContext validationContext)
+    {
+        if (DiscountPrice &gt; Price)
+        {
+            yield return new ValidationResult(\"Discount cannot be higher than price\", new[] { nameof(DiscountPrice) });
+        }
+    }
+}</code></pre>
+
+    <h2>4. Displaying Validation Messages in Razor View</h2>
+    <pre><code>&lt;form asp-action=\"Create\" method=\"post\"&gt;
+    &lt;div class=\"form-group\"&gt;
+        &lt;label asp-for=\"Name\"&gt;&lt;/label&gt;
+        &lt;input asp-for=\"Name\" class=\"form-control\" /&gt;
+        &lt;span asp-validation-for=\"Name\" class=\"text-danger\"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div class=\"form-group\"&gt;
+        &lt;label asp-for=\"Age\"&gt;&lt;/label&gt;
+        &lt;input asp-for=\"Age\" class=\"form-control\" /&gt;
+        &lt;span asp-validation-for=\"Age\" class=\"text-danger\"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div class=\"form-group\"&gt;
+        &lt;label asp-for=\"Email\"&gt;&lt;/label&gt;
+        &lt;input asp-for=\"Email\" class=\"form-control\" /&gt;
+        &lt;span asp-validation-for=\"Email\" class=\"text-danger\"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;button type=\"submit\" class=\"btn btn-primary\"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+
+    <h2>5. Summary</h2>
+    <ul>
+        <li><strong>Data Annotations</strong> are easy to use for simple validations.</li>
+        <li><strong>Client-side validation</strong> provides quick feedback in the browser.</li>
+        <li><strong>Server-side validation</strong> ensures data integrity on the server.</li>
+        <li><strong>IValidatableObject</strong> allows for custom model-level validation logic.</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DI Lifetimes Visual Guide</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+      h1 {
+        color: #2c3e50;
+      }
+      .lifetime-box {
+        border: 2px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+      }
+      .scoped {
+        border-color: #3498db;
+        background: #ecf7ff;
+      }
+      .transient {
+        border-color: #e67e22;
+        background: #fff5e6;
+      }
+      .singleton {
+        border-color: #2ecc71;
+        background: #eaffea;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      pre {
+        background: #f8f8f8;
+        padding: 10px;
+        border-left: 4px solid #ccc;
+      }
+      .note {
+        font-style: italic;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dependency Injection Lifetimes (Visual Guide)</h1>
+
+    <div class="lifetime-box scoped">
+      <h2>🔵 AddScoped</h2>
+      <p>
+        Creates <strong>one instance per HTTP request</strong>. Within the same
+        request, dependencies share the same object.
+      </p>
+      <pre>
+Request A ➝ [Service#1]
+             ↑ Used across controller & services
+Request B ➝ [Service#2]
+    </pre
+      >
+      <p class="note">
+        Great for per-request tracking like a database context.
+      </p>
+    </div>
+
+    <div class="lifetime-box transient">
+      <h2>🟠 AddTransient</h2>
+      <p>
+        Creates a <strong>new instance every time</strong> it is requested—even
+        within the same request.
+      </p>
+      <pre>
+Request A ➝ [Service#1] → used in Controller
+          ➝ [Service#2] → used in Helper
+Request B ➝ [Service#3]
+    </pre
+      >
+      <p class="note">Great for lightweight, stateless services.</p>
+    </div>
+
+    <div class="lifetime-box singleton">
+      <h2>🟢 AddSingleton</h2>
+      <p>
+        Creates
+        <strong>one instance for the entire application lifetime</strong>.
+        Shared across all requests and users.
+      </p>
+      <pre>
+App Start ➝ [Service#1]
+Request A ➝ uses Service#1
+Request B ➝ uses Service#1
+    </pre
+      >
+      <p class="note">Useful for caching, logging, or shared data sources.</p>
+    </div>
+  </body>
+</html>

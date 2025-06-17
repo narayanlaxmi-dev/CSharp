@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TPL, Tasks vs Threads in C#</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+      code {
+        background-color: #f4f4f4;
+        padding: 2px 4px;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+      }
+      h2 {
+        color: #333366;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Understanding TPL (Task Parallel Library) in C#</h1>
+
+    <p>
+      The Task Parallel Library (TPL) is a set of public types and APIs in the
+      <code>System.Threading</code> and
+      <code>System.Threading.Tasks</code> namespaces. It helps you write
+      concurrent and parallel programs in C# easily.
+    </p>
+
+    <h2>1. Basic Example of Task in TPL</h2>
+    <pre><code>using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static void Main()
+    {
+        Task t = Task.Run(() => {
+            Console.WriteLine("Running in a task.");
+        });
+
+        t.Wait();
+        Console.WriteLine("Main thread done.");
+    }
+}</code></pre>
+
+    <h2>2. Task with Return Type</h2>
+    <pre><code>Task&lt;int&gt; t = Task.Run(() =&gt; {
+    return 42;
+});
+
+Console.WriteLine("Result: " + t.Result);</code></pre>
+
+    <h2>3. Using Task.WhenAll</h2>
+    <pre><code>Task task1 = Task.Delay(1000);
+Task task2 = Task.Delay(2000);
+
+await Task.WhenAll(task1, task2);
+Console.WriteLine("Both tasks completed.");</code></pre>
+
+    <h2>4. Difference Between Task and Thread</h2>
+    <ul>
+      <li>
+        <strong>Task:</strong> High-level abstraction. Uses thread pool under
+        the hood. More efficient. Use for asynchronous operations or background
+        work.
+      </li>
+      <li>
+        <strong>Thread:</strong> Low-level. Represents a real OS thread. More
+        control, but heavier and less scalable.
+      </li>
+    </ul>
+
+    <h2>5. When to Use What?</h2>
+    <ul>
+      <li>
+        <strong>Use Task</strong> when you want to run asynchronous or parallel
+        operations that don't need explicit control over thread lifetime (like
+        waiting, suspending).
+      </li>
+      <li>
+        <strong>Use Thread</strong> when you need low-level control, such as
+        setting apartment state or doing long-running operations where you want
+        a dedicated thread.
+      </li>
+    </ul>
+
+    <h2>Example of Using Thread</h2>
+    <pre><code>using System;
+using System.Threading;
+
+class Program
+{
+    static void Main()
+    {
+        Thread t = new Thread(() => {
+            Console.WriteLine("Running in a thread.");
+        });
+
+        t.Start();
+        t.Join();
+        Console.WriteLine("Main thread done.");
+    }
+}</code></pre>
+  </body>
+</html>

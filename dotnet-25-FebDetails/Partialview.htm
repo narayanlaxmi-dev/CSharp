@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Partial View Explained</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        line-height: 1.6;
+      }
+      code,
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        display: block;
+        border-left: 3px solid #ccc;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Partial View in ASP.NET MVC</h1>
+
+    <p>
+      A <strong>Partial View</strong> in ASP.NET MVC is a reusable component
+      that represents a portion of the web page. It's useful for rendering
+      common parts of a UI such as headers, footers, menus, or any repeatable
+      sections.
+    </p>
+
+    <h2>Benefits of Partial Views</h2>
+    <ul>
+      <li>Encourages code reuse</li>
+      <li>Improves maintainability</li>
+      <li>Reduces duplication</li>
+      <li>Faster rendering of partial page content with AJAX</li>
+    </ul>
+
+    <h2>Example of Partial View Usage</h2>
+
+    <h3>Main View (Index.cshtml)</h3>
+    <pre><code>
+@model MyApp.Models.Person
+
+&lt;h2&gt;Person Details&lt;/h2&gt;
+
+&lt;div&gt;
+    &lt;p&gt;Name: @Model.Name&lt;/p&gt;
+    &lt;p&gt;Age: @Model.Age&lt;/p&gt;
+
+    &lt;!-- Render partial view --&gt;
+    @Html.Partial("_ContactInfo", Model)
+&lt;/div&gt;
+    </code></pre>
+
+    <h3>Partial View (_ContactInfo.cshtml)</h3>
+    <pre><code>
+@model MyApp.Models.Person
+
+&lt;h3&gt;Contact Info&lt;/h3&gt;
+&lt;p&gt;Email: @Model.Email&lt;/p&gt;
+&lt;p&gt;Phone: @Model.Phone&lt;/p&gt;
+    </code></pre>
+
+    <h3>Model (Person.cs)</h3>
+    <pre><code>
+public class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Email { get; set; }
+    public string Phone { get; set; }
+}
+    </code></pre>
+
+    <h2>Conclusion</h2>
+    <p>
+      Partial Views make it easier to manage reusable UI components in ASP.NET
+      MVC applications. They are especially helpful in modular web app
+      development and when integrating AJAX functionality.
+    </p>
+  </body>
+</html>

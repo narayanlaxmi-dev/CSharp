@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\users\\cdac\\documents\\c# narayan\\day 11\\react-crud-with-asp.net-core-web-api-master\\react-crud-with-asp.net-core-web-api-master\\webapi\\webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 689,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Startup.cs",
+              "RelativeToolTip": "WebAPI\\Startup.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:07:09.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:07:00.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DCandidate.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Models\\DCandidate.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\DCandidate.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Models\\DCandidate.cs",
+              "RelativeToolTip": "WebAPI\\Models\\DCandidate.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:05:34.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T04:05:28.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DCandidateController.cs",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Controllers\\DCandidateController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DCandidateController.cs",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\Controllers\\DCandidateController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DCandidateController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:05:18.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\CDAC\\Documents\\C# Narayan\\Day 11\\React-CRUD-with-Asp.Net-Core-Web-API-master\\React-CRUD-with-Asp.Net-Core-Web-API-master\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T04:04:51.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
