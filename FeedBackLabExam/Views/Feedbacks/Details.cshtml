@@ -1,0 +1,42 @@
+﻿@model FeedBackLabExam.Models.Feedback
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class=" bg-success text-white p-3 m-3">
+    <h4>Feedback</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SubmittedBy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SubmittedBy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SubmittedOn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SubmittedOn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Feedbacktype)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Feedbacktype)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.FeedbackId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
